@@ -1,0 +1,15 @@
+{
+  "name": "scraper-mock-server",
+  "version": "1.0.0",
+  "description": "Provides easy to set up test envirements for scraping tools, mainly used as a mocked website exposing configurable data and APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yassinMi 2024",
+  "license": "MIT",
+  "dependencies": {
+    "console-control-strings": "^1.1.0",
+    "express": "^4.18.2"
+  }
+}
