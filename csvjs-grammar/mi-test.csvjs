@@ -1,0 +1,28 @@
+
+#data
+[products1]
+"id005|re|",59, 899$, Product Title 1, 400, 1, 0, 0, 10
+id007,59, 129$, Product Title 2, 400, 1, 0, 0, 11
+id008,59, 899$, Product Title 3, 500, 1, 0, 0, 10
+id009,59, 899$, Product Title 4, 900, 0, 2, 0, 1
+id0010,59, 899$, Product Title 5, 400, 1, 0, 0, 13,zer,zer,zer,zer,zer,zer,zer,zer,zer,zerzer, zer,
+dfd,zer,zer,zer,zer,zer,zer,zer,zer,
+
+[products]
+id005,59, 899$, Product Title 1, 400, 1, 0, 0, 10
+id007,59, 129$, Product Title 2, 400, 1, 0, 0, 11
+id008,59, 899$, Product Title 3, 500, 1, 0, 0, 10
+id009,59, 899$, Product Title 4, 900, 0, 2, 0, 1
+id0010,59, 899$, Product Title 5, 400, 1, 0, 0, 13
+
+uass,oio, 
+
+ 
+#exports
+
+add products.where(p=>{return p.available==true;});
+add products.where(p=>{return p.size>4});
+add products1;
+//export products2;
+add loop products2 inc id until [id]>=40
+
