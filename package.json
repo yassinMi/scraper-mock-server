@@ -1,7 +1,7 @@
 {
   "name": "scraper-mock-server",
   "version": "1.0.0",
-  "description": "Provides easy to set up test envirements for scraping tools, mainly used as a mocked website exposing configurable data and APIs",
+  "description": "Creates a mocked web server exposing data and APIs that can be easily configured, useful to set up test envirements for e.g. scraping tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

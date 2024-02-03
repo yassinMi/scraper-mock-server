@@ -24,5 +24,6 @@ add products.where(p=>{return p.available==true;});
 add products.where(p=>{return p.size>4});
 add products1;
 //export products2;
-add loop products2 inc id until [id]>=40
+add loop products2 num_inc id until [id]>=40
+add loop products2 inc id until [id]>=40 //old
 
